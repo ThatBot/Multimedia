@@ -9,6 +9,15 @@ main{
     flex-wrap: nowrap;
 }
 
+h1{
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
 .bannerContainer{
     position: relative;
     width: 100%;
@@ -38,6 +47,8 @@ main{
 
 .media{
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .mediaElement{
@@ -50,6 +61,31 @@ main{
     background-color: #c4b9ca;
     border: 10px solid #c4b9ca;
     border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contributeButton{
+    border: 5px solid #97679d;
+    border-radius: 15px;
+    background-color: #97679d;
+
+    height: 10%;
+    margin: 10px;
+
+    color: black;
+}
+
+.contributeButton.p{
+
+    text-align: center;
+}
+
+.contributeButton:hover{
+    background-color: #ac82c3;
+    border-color: #ac82c3;
 }
 
 .tiers{
