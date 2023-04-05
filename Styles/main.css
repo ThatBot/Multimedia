@@ -1,9 +1,9 @@
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
-    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -32,6 +32,24 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.media{
+    width: 50%;
+}
+
+.mediaElement{
+    border: 5px solid #c4b9ca;
+    margin: 5px;
+}
+
+.contribute{
+    width: 50%;
+    background-color: #c4b9ca;
+    border: 10px solid #c4b9ca;
+    border-radius: 15px;
 }
 
 .tiers{
