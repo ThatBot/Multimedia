@@ -87,7 +87,6 @@ a:link, a:visited{
 }
 
 .contributeButton.p{
-
     text-align: center;
 }
 
@@ -118,7 +117,7 @@ a:link, a:visited{
 
 .teamMember{
     margin: 5px;
-    border: 10px solid #ac82c3;
+    border: 10px solid #c4b9ca;
     display: flex;
     flex-direction: column;
     text-align: center;
