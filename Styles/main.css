@@ -109,3 +109,17 @@ a:link, a:visited{
 .splitContainer p{
     text-align: center;
 }
+
+.teamContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.teamMember{
+    margin: 5px;
+    border: 10px solid #ac82c3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
