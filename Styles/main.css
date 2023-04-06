@@ -60,8 +60,8 @@ a:link, a:visited{
 }
 
 .mediaElement{
-    border: 5px solid #c4b9ca;
-    margin: 5px;
+    border: 10px solid #c4b9ca;
+    margin: 10px;
 }
 
 .contribute{
@@ -69,6 +69,7 @@ a:link, a:visited{
     background-color: #c4b9ca;
     border: 10px solid #c4b9ca;
     border-radius: 15px;
+    margin: 10px;
 
     display: flex;
     flex-direction: column;
