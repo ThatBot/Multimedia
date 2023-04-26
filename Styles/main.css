@@ -16,6 +16,10 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 a:link, a:visited{
     text-decoration: none;
     color: black;
@@ -107,6 +111,13 @@ a:link, a:visited{
 .stGoals{
     width: 50%;
     border: 10px solid #c4b9ca;
+}
+
+.framedContainer{
+    background-color: #c4b9ca;
+    border: 10px solid #c4b9ca;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .splitContainer p{
