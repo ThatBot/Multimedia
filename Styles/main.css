@@ -103,6 +103,11 @@ a:link, a:visited{
     border-color: #ac82c3;
 }
 
+.description{
+    margin: 10px;
+    text-align: justify;
+}
+
 .tiers{
     width: 50%;
     border: 10px solid #c4b9ca;
